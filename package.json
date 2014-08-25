@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kl0tl/unity-asset-store-api.git"
+  },
   "keywords": [
     "unity",
     "unity3d",
@@ -16,6 +20,10 @@
   ],
   "author": "Cyril Sobierajewicz <sobierajewicz.cyril@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kl0tl/unity-asset-store-api/issues"
+  },
+  "homepage": "https://github.com/Kl0tl/unity-asset-store-api",
   "preferGlobal": true,
   "bin": {
     "unity-asset-store-api": "bin/unity-asset-store-api.js"
