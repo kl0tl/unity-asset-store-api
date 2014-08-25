@@ -1,0 +1,30 @@
+{
+  "name": "unity-asset-store-api",
+  "version": "0.1.0",
+  "description": "A minimal REST api to query the [Unity Asset Store website](https://www.assetstore.unity3d.com).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unity",
+    "unity3d",
+    "rest",
+    "api",
+    "asset",
+    "store"
+  ],
+  "author": "Cyril Sobierajewicz <sobierajewicz.cyril@gmail.com>",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "unity-asset-store-api": "bin/unity-asset-store-api.js"
+  },
+  "dependencies": {
+    "cli-color": "^0.3.2",
+    "native-promise-only": "^0.7.6-a",
+    "optimist": "^0.6.1",
+    "request": "^2.40.0",
+    "route-pattern": "0.0.6"
+  }
+}
