@@ -7,8 +7,9 @@ var fs = require('fs');
 var clc = require('cli-color');
 var optimist = require('optimist');
 
-var api = require('../index');
 var pkg = require('../package.json');
+
+var api = require('../index');
 
 var doc = [
   pkg.description,,
