@@ -43,14 +43,16 @@ if (process.argv.length < 3) {
           return write(output, res);
         }
 
-        console.log(res);
-        process.exit();
+        process.stdout.write(res + '\n');
       })
-      .catch(function (err) {
-        console.error(clc.red(err.stack));
-        process.exit(1);
-      });
+      .catch(throwError);
   }
+}
+
+function throwError(err) {
+  process.nextTick(function () {
+    throw err;
+  });
 }
 
 function write(filename, contents) {
